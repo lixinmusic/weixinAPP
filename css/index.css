@@ -1,0 +1,307 @@
+*, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 76.66667px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 76.2963px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 69.44444px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 66.66667px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 59.25926px; } }
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0.72rem;
+  background: #393a3f;
+  z-index: 100; }
+  .header h1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.72rem;
+    left: 0.17rem; }
+  .header .sousuo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../img/sousuo.png) no-repeat right;
+    background-size: 0.4rem;
+    margin-right: 1.28rem; }
+  .header .jia {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../img/jia.png) no-repeat right;
+    background-size: 0.4rem;
+    margin-right: 0.35rem; }
+
+.center {
+  width: 100%;
+  position: fixed;
+  top: 0.72rem;
+  bottom: 0;
+  overflow-y: auto; }
+  .center .smalltiao {
+    width: 100%;
+    height: 0.96rem;
+    border-bottom: 1px solid #ececec; }
+  .center .ge {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/diyi.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .ge h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .ge span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+  .center .geer {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/shu.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .geer h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .geer span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+  .center .gesan {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/san.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .gesan h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .gesan span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+  .center .gesi {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/si.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .gesi h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .gesi span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+  .center .gewu {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/wu.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .gewu h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .gewu span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+  .center .geliu {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/liu.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .geliu h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .geliu span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+  .center .geqi {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/qi.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .geqi h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .geqi span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+  .center .geba {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/ba.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .geba h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .geba span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+  .center .gejiu {
+    margin-left: 0.21rem;
+    height: 0.97rem;
+    background: url(../img/qi.png) no-repeat left center;
+    background-size: 0.85rem; }
+    .center .gejiu h2 {
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+    .center .gejiu span {
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color: #a2a2a2; }
+
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.82rem;
+  background: #fcfcfc;
+  border-top: 1px solid #ccc; }
+  .bottom .yi img {
+    width: 0.60rem;
+    height: 0.40rem;
+    float: left;
+    padding: 0.1rem 0.4rem; }
+  .bottom .yi span a {
+    font-size: 0.13rem;
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    left: 0.42rem;
+    color: #aaaaaa; }
+  .bottom .er img {
+    width: 0.40rem;
+    height: 0.35rem;
+    float: left;
+    padding: 0.14rem 0.40rem; }
+  .bottom .er span a {
+    font-size: 0.13rem;
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    left: 1.66rem;
+    color: #aaaaaa; }
+  .bottom .san img {
+    width: 0.40rem;
+    height: 0.35rem;
+    float: left;
+    padding: 0.14rem 0.40rem; }
+  .bottom .san span a {
+    font-size: 0.13rem;
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    left: 2.98rem;
+    color: #aaaaaa; }
+  .bottom .si img {
+    width: 0.40rem;
+    height: 0.35rem;
+    float: left;
+    padding: 0.15rem 0.4rem; }
+  .bottom .si span a {
+    font-size: 0.13rem;
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    left: 4.28rem;
+    color: #aaaaaa; }
+
+/*  @media screen and (max-width:320px){
+    html{
+    font-size: 100px*(320px/$size);
+  }
+}*/
+/*
+
+@media screen and (max-width: 375px){
+  .header{
+    height:46.875px;
+    background:red;
+
+  }
+}
+@media screen and (max-width: 320px){
+.header{
+  height:40px;
+  background: blue;
+}
+}*/

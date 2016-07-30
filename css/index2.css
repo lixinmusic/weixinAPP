@@ -1,0 +1,250 @@
+*, h1, h2, h3, h4 {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+
+a {
+  text-decoration: none; }
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 100px; } }
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 76.66667px; } }
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 76.2963px; } }
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 69.44444px; } }
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 66.66667px; } }
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 59.25926px; } }
+
+.header {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 0.72rem;
+  background: #393a3f;
+  z-index: 100; }
+  .header h1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    color: #ffffff;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.72rem;
+    left: 0.17rem; }
+  .header .sousuo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../img/sousuo.png) no-repeat right;
+    background-size: 0.4rem;
+    margin-right: 1.28rem; }
+  .header .jia {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background: url(../img/jia.png) no-repeat right;
+    background-size: 0.4rem;
+    margin-right: 0.35rem; }
+
+.centerwo {
+  width: 100%;
+  position: fixed;
+  top: 0.72rem;
+  bottom: 0;
+  overflow-y: auto; }
+  .centerwo .smallwo {
+    width: 100%;
+    height: 0.79rem;
+    border-bottom: 1px solid #ececec; }
+  .centerwo .geyi {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p1.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .geyi h1 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.25rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .geer {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p2.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .geer h1 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.25rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .gesan {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p3.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .gesan h1 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.25rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .gesi {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p4.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .gesi h1 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.25rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .tiao {
+    width: 100%;
+    height: 0.3rem;
+    background: #ebebeb; }
+    .centerwo .tiao li {
+      margin-left: 0.21rem;
+      font-size: 0.25rem;
+      color: #636467; }
+  .centerwo .gewu {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p5.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .gewu h2 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .geliu {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p6.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .geliu h2 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .geqi {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p7.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .geqi h2 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .geba {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p8.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .geba h2 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .gejiu {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/p9.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .gejiu h2 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+  .centerwo .gec {
+    margin-left: 0.21rem;
+    height: 0.79rem;
+    background: url(../img/liu.png) no-repeat left center;
+    background-size: 0.58rem; }
+    .centerwo .gec h2 {
+      padding: 0.28rem 0.75rem;
+      font-size: 0.2rem;
+      color: #626267;
+      cursor: pointer; }
+
+.bottom {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0.82rem;
+  background: #fcfcfc;
+  border-top: 1px solid #ccc; }
+  .bottom .yi img {
+    width: 0.60rem;
+    height: 0.40rem;
+    float: left;
+    padding: 0.1rem 0.4rem; }
+  .bottom .yi span a {
+    font-size: 0.13rem;
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    left: 0.42rem;
+    color: #aaaaaa; }
+  .bottom .er img {
+    width: 0.40rem;
+    height: 0.35rem;
+    float: left;
+    padding: 0.14rem 0.40rem; }
+  .bottom .er span a {
+    font-size: 0.13rem;
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    left: 1.66rem;
+    color: #51bb11; }
+  .bottom .san img {
+    width: 0.40rem;
+    height: 0.35rem;
+    float: left;
+    padding: 0.14rem 0.40rem; }
+  .bottom .san span a {
+    font-size: 0.13rem;
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    left: 2.98rem;
+    color: #aaaaaa; }
+  .bottom .si img {
+    width: 0.40rem;
+    height: 0.35rem;
+    float: left;
+    padding: 0.15rem 0.4rem; }
+  .bottom .si span a {
+    font-size: 0.13rem;
+    display: block;
+    position: absolute;
+    top: 0.55rem;
+    left: 4.28rem;
+    color: #aaaaaa; }

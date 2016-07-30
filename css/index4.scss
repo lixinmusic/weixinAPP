@@ -1,0 +1,263 @@
+@import "bast";
+@mixin userem($size){
+  $list:540px,414px,412px,375px,360px,320px;
+  @each $i in $list{
+    @media screen and (max-width:#{$i}){
+      html{
+        font-size: 100px*($i/$size);
+      }
+    }
+  }
+}
+//可以调节它的设计图宽度和实际宽度的比例
+//1024px 50px
+//320px   x
+//（320/1024）*50=实际的高度；
+@include userem(540px);
+
+.header{
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:0.72rem;
+  background: #393a3f;
+  z-index: 100;
+  h1{
+    @include topbottom;
+    color:#ffffff;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.72rem;
+    left:0.17rem;
+  }
+  .sousuo{
+    @include topbottom;
+    @include leftright;
+    background: url(../img/sousuo.png)no-repeat right;
+    background-size:0.4rem;
+    margin-right: 1.28rem;
+  }
+  .jia{
+    @include topbottom;
+    @include leftright;
+    background:url(../img/jia.png)no-repeat right;
+    background-size:0.4rem;
+    margin-right: 0.35rem;
+  }
+}
+
+
+.centerhh{
+  width:100%;
+  position:fixed;
+  top:0.72rem;
+  bottom:0;
+  overflow-y: auto;
+  .tiao{
+    width: 100%;
+    height:0.31rem;
+    background:#ebebeb;
+  }
+ .jian{
+   width: 100%;
+   height:1.22rem;
+ }
+   .woyi{
+     margin-left: 0.22rem;
+     height: 1.22rem;
+     background:url(../img/ze.png),url(../img/zy.png);
+     background-repeat:no-repeat,no-repeat;
+     background-position: left center,right center;
+     background-size:1.02rem,0.31rem;
+     margin-right: 0.37rem;
+    h1{
+      font-size: 0.3rem;
+      padding:0.32rem 1.2rem;
+    }
+     p{
+        color: rgba(98, 116, 116, 0.52);
+        margin-top:-0.21rem ;
+        font-size: 0.20rem;
+        padding:0 1.1rem;
+    }
+}
+
+  .woer{
+    margin-left: 0.22rem;
+    height: 0.73rem;
+    background:url(../img/z1.png)no-repeat left center;
+    background-size:0.42rem;
+    border-bottom: 1px solid #ebebeb;
+    h1{
+      font-size: 0.28rem;
+      padding:0.23rem 0.7rem;
+      color:#616161;
+    }
+
+  }
+
+  .wosan{
+    margin-left: 0.22rem;
+    height: 0.73rem;
+    background:url(../img/zi.png)no-repeat left center;
+    background-size:0.42rem;
+    border-bottom: 1px solid #ebebeb;
+    h1{
+      font-size: 0.28rem;
+      padding:0.23rem 0.7rem;
+      color:#616161;
+    }
+
+  }
+
+
+  .wosi{
+    margin-left: 0.22rem;
+    height: 0.73rem;
+    background:url(../img/z3.png)no-repeat left center;
+    background-size:0.42rem;
+    border-bottom: 1px solid #ebebeb;
+    h1{
+      font-size: 0.28rem;
+      padding:0.23rem 0.7rem;
+      color:#616161;
+    }
+
+  }
+
+  .wowu{
+    margin-left: 0.22rem;
+    height: 0.73rem;
+    background:url(../img/z4.png)no-repeat left center;
+    background-size:0.42rem;
+    border-bottom: 1px solid #ebebeb;
+    h1{
+      font-size: 0.28rem;
+      padding:0.23rem 0.7rem;
+      color:#616161;
+    }
+
+  }
+
+  .woliu{
+    margin-left: 0.22rem;
+    height: 0.73rem;
+    background:url(../img/z5.png)no-repeat left center;
+    background-size:0.42rem;
+    border-bottom: 1px solid #ebebeb;
+    h1{
+      font-size: 0.28rem;
+      padding:0.23rem 0.7rem;
+      color:#616161;
+    }
+
+  }
+
+  .woqi{
+    margin-left: 0.22rem;
+    height: 0.73rem;
+    background:url(../img/z6.png),url(../img/zui3.png);
+    background-size:0.42rem,0.76rem;
+    background-repeat: no-repeat,no-repeat;
+    background-position: left center,right center;
+    margin-right: 0.17rem;
+    border-bottom: 1px solid #ebebeb;
+    h1{
+      font-size: 0.28rem;
+      padding:0.23rem 0.7rem;
+      color:#616161;
+    }
+
+  }
+
+}
+
+
+.bottom{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+  height:0.82rem;
+  background: #fcfcfc;
+  border-top:1px solid #ccc;
+  .yi{
+    img{
+      width:0.60rem;
+      height:0.40rem;
+      float: left;
+      padding:0.1rem 0.4rem;
+    }
+    span a{
+      font-size: 0.13rem;
+      display: block;
+      position: absolute;
+      top:0.55rem;
+      left:0.42rem;
+      color:#aaaaaa;
+    }
+  }
+  .er{
+    img{
+      width:0.40rem;
+      height:0.35rem;
+      float: left;
+      padding:0.14rem 0.40rem;
+    }
+    span a{
+      font-size: 0.13rem;
+      display: block;
+      position: absolute;
+      top:0.55rem;
+      left:1.66rem;
+      color:#aaaaaa;
+    }
+  }
+  .san{
+    img{
+      width:0.40rem;
+      height:0.35rem;
+      float: left;
+      padding:0.14rem 0.40rem;
+    }
+    span a{
+      font-size: 0.13rem;
+      display: block;
+      position: absolute;
+      top:0.55rem;
+      left:2.98rem;
+      color:#aaaaaa;
+    }
+  }
+  .si{
+    img{
+      width:0.40rem;
+      height:0.35rem;
+      float: left;
+      padding:0.15rem 0.40rem;
+    }
+    span{
+      font-size: 0.13rem;
+      display: block;
+      position: absolute;
+      top:0.55rem;
+      left:4.28rem;
+      color:#47c30d;
+    }
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+

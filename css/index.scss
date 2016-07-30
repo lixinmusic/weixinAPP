@@ -1,0 +1,352 @@
+
+@import 'bast';
+
+@mixin userem($size){
+  $list:540px,414px,412px,375px,360px,320px;
+  @each $i in $list{
+    @media screen and (max-width:#{$i}){
+      html{
+        font-size: 100px*($i/$size);
+      }
+    }
+  }
+}
+//可以调节它的设计图宽度和实际宽度的比例
+//1024px 50px
+//320px   x
+//（320/1024）*50=实际的高度；
+@include userem(540px);
+.header{
+  position: fixed;
+  left:0;
+  top:0;
+  width:100%;
+  height:0.72rem;
+  background: #393a3f;
+  z-index: 100;
+  h1{
+    @include topbottom;
+    color:#ffffff;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 0.72rem;
+    left:0.17rem;
+  }
+  .sousuo{
+    @include topbottom;
+    @include leftright;
+    background: url(../img/sousuo.png)no-repeat right;
+    background-size:0.4rem;
+    margin-right: 1.28rem;
+  }
+  .jia{
+    @include topbottom;
+    @include leftright;
+    background:url(../img/jia.png)no-repeat right;
+    background-size:0.4rem;
+    margin-right: 0.35rem;
+  }
+}
+
+
+
+.center{
+  width: 100%;
+  position: fixed;
+  top:0.72rem;
+  bottom:0;
+  overflow-y: auto;
+  .smalltiao {
+    width: 100%;
+    height: 0.96rem;
+    border-bottom: 1px solid #ececec;
+  }
+  .ge{
+    margin-left: 0.21rem;
+    height:0.97rem;
+    background: url(../img/diyi.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+  }
+
+  .geer{
+    margin-left:0.21rem;
+    height:0.97rem;
+    background: url(../img/shu.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+      
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+
+  }
+  .gesan{
+    margin-left:0.21rem;
+    height:0.97rem;
+    background: url(../img/san.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+      
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+  }
+  .gesi{
+    margin-left:0.21rem;
+    height:0.97rem;
+    background: url(../img/si.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+  }
+  .gewu{
+    margin-left:0.21rem;
+    height:0.97rem;
+    background: url(../img/wu.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+  }
+  .geliu{
+    margin-left:0.21rem;
+    height:0.97rem;
+    background: url(../img/liu.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+  }
+  .geqi{
+    margin-left:0.21rem;
+    height:0.97rem;
+    background: url(../img/qi.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+
+  }
+  .geba{
+    margin-left:0.21rem;
+    height:0.97rem;
+    background: url(../img/ba.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+  }
+  .gejiu{
+    margin-left:0.21rem;
+    height:0.97rem;
+    background: url(../img/qi.png)no-repeat left center;
+    background-size:0.85rem ;
+    h2{
+      padding: 0.22rem 0.95rem;
+      font-size: 0.2rem;
+      color:#626267;
+      cursor:pointer;
+      
+    }
+    span{
+      margin-top: -0.12rem;
+      display: block;
+      font-size: 0.15rem;
+      padding: 0rem 0.95rem;
+      color:#a2a2a2;
+    }
+  }
+
+}
+
+.bottom{
+  position: fixed;
+  left:0;
+  bottom:0;
+  width: 100%;
+  height:0.82rem;
+  background: #fcfcfc;
+  border-top:1px solid #ccc;
+  .yi{
+    img{
+      width:0.60rem;
+      height:0.40rem;
+      float: left;
+      padding:0.1rem 0.4rem;
+    }
+    span a{
+      font-size: 0.13rem;
+      display: block;
+      position: absolute;
+      top:0.55rem;
+      left:0.42rem;
+      color:#aaaaaa;
+    }
+  }
+  .er{
+    img{
+      width:0.40rem;
+      height:0.35rem;
+      float: left;
+      padding:0.14rem 0.40rem;
+    }
+    span a{
+      font-size: 0.13rem;
+      display: block;
+      position: absolute;
+      top:0.55rem;
+      left:1.66rem;
+      color:#aaaaaa;
+    }
+  }
+  .san{
+    img{
+      width:0.40rem;
+      height:0.35rem;
+      float: left;
+      padding:0.14rem 0.40rem;
+    }
+    span a{
+      font-size: 0.13rem;
+      display: block;
+      position: absolute;
+      top:0.55rem;
+      left:2.98rem;
+      color:#aaaaaa;
+    }
+  }
+  .si{
+    img{
+      width:0.40rem;
+      height:0.35rem;
+      float: left;
+      padding:0.15rem 0.4rem;
+    }
+    span a{
+      font-size: 0.13rem;
+      display: block;
+      position: absolute;
+      top:0.55rem;
+      left:4.28rem;
+      color:#aaaaaa;
+    }
+  }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  @media screen and (max-width:320px){
+    html{
+    font-size: 100px*(320px/$size);
+  }
+}*/
+
+
+/*
+
+@media screen and (max-width: 375px){
+  .header{
+    height:46.875px;
+    background:red;
+
+  }
+}
+@media screen and (max-width: 320px){
+.header{
+  height:40px;
+  background: blue;
+}
+}*/
